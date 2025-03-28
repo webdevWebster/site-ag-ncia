@@ -10,6 +10,11 @@
     --gradient: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
 }
 
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +78,8 @@ section {
     background: var(--gradient);
     color: white;
     box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    padding: 10px 12px;
+    border-radius: 1rem;
 }
 
 .btn-primary:hover {
@@ -436,6 +443,7 @@ section {
     margin: 20px 0;
     color: #fef08a;
 }
+
 
 /* Contato */
 .contato {
